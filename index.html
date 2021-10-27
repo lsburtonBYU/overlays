@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Lato|Muli:400,800,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Overlays Demo</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a>Home</a></li>
+        <li><a href="about/">About</a></li>
+        <li><a href="form/">Survey</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <picture>
+      <source media="(min-width: 901px)" srcset="images/harold-1600w.jpg">
+      <source media="(min-width: 601px)" srcset="images/harold-900w.jpg">
+      <source media="(max-width: 600px)" srcset="images/harold-600w.jpg">
+      <img src="images/harold-1600w.jpg" alt="hide the pain harold meme guy">
+    </picture>
+    <div class="overlay">
+      <h1>Harold</h1>
+      <p>Hide the pain</p>
+    </div>
+  </div>
+
+
+  <main>
+    <section>
+      <article>
+        <h2>Article 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          tempore error, minima perspiciatis quasi
+          doloremque ipsam delectus praesentium voluptatibus distinctio est
+          obcaecati aliquid ipsum iure dolores,
+          exercitationem fuga rem ullam.</p>
+        <a class="button">Learn more</a>
+      </article>
+      <article>
+        <h2>Article 2 </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+          aspernatur soluta architecto sapiente minima,
+          harum ab officia dignissimos dolorem corrupti quam! Magni, hic
+          repellendus! Rerum sapiente assumenda
+          doloremque eius soluta?</p>
+        <a class="button">Contact</a>
+      </article>
+    </section>
+
+    <div class="cards">
+      <div class="card">
+        <a>
+          <img src="images/harold-sweater.jpg"
+            alt="harold modeling an orange sweater">
+          <div class="overlay">
+            <p>Sweater of happiness</p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a>
+          <img src="images/harold-computer.jpg" alt="happy harold on computer">
+          <div class="overlay">
+            <p>Excel Rocks</p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a>
+          <img src="images/harold-hammer.jpg"
+            alt="harold on a ladder hammering a nail to nothing">
+          <div class="overlay">
+            <p>Wot?</p>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a>
+          <img src="images/harold-paper.jpg"
+            alt="harold drinking coffee and surprised by the paper">
+          <div class="overlay">
+            <p>Wow Such News</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
